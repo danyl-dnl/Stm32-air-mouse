@@ -1,0 +1,50 @@
+# ─── Build artifacts ───────────────────────────────────────────
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.d
+*.a
+*.lst
+*.su
+
+# ─── OpenOCD / ST-Link ─────────────────────────────────────────
+*.cfg
+openocd.log
+
+# ─── Keil MDK ──────────────────────────────────────────────────
+*.uvprojx
+*.uvoptx
+*.uvguix
+*.scvd
+*.dep
+Listings/
+Objects/
+RTE/
+
+# ─── STM32CubeIDE / Eclipse ────────────────────────────────────
+.settings/
+.cproject
+.project
+Debug/
+Release/
+
+# ─── VS Code ───────────────────────────────────────────────────
+.vscode/
+
+# ─── Python ────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.venv/
+*.egg-info/
+dist/
+
+# ─── OS ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
